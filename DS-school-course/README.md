@@ -1,8 +1,8 @@
-### Mini Exploratory Data Analysis (EDA) for Midterm Data Science Project
+# Mini Exploratory Data Analysis (EDA) for Midterm Data Science Project
 
 Welcome to my Exploratory Data Analysis (EDA) for a school course project. This analysis is based on the [Students Grading Dataset](https://www.kaggle.com/datasets/mahmoudelhemaly/students-grading-dataset).
 
-#### Objectives of the EDA:
+## Objectives of the EDA:
 1. **Data Overview**: Load and provide a summary of the dataset.
 2. **Data Cleaning and Preprocessing**:
     - Handle missing data.
@@ -18,5 +18,11 @@ Welcome to my Exploratory Data Analysis (EDA) for a school course project. This 
         - What is the impact of study hours on physical well-being (stress levels and sleep hours per night)?
         - Are there differences in weekly study hours among students based on factors like Department, Family Income Level, Parent Education Level, Extracurricular Activities, and Internet Access at Home?
         - What is the optimal number of study hours per week for achieving high academic results?
+
+## Implementation
+```bash
+pip install -r requirements.txt
+```
+Open **EDA_study-hours_per_week.ipynb** in Jupyter Notebook. Click on "Run All" to execute all cells, and review the markdown sections below each code cell for detailed information about the data.
 
 This project aims to uncover insights that can help students optimize their study habits and improve academic outcomes.
